@@ -84,3 +84,107 @@ body {
     gap: 50px;
 }
 
+.gym-img{
+    width:-10px;
+    height: -10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.about-img-text{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.about-img-div{
+    width: 50%;
+}
+
+.about-text1{
+    width: 50%;
+}
+.gym-img1{
+    display: flex;
+    width: 0;
+    height: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    
+
+}
+.gym-img2{
+    display: flex;
+    width: -100px;
+    height: -200px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.gym-img3{
+    display: flex;
+    width: -100px;
+    height: -200px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+.main-box{
+    display: flex;
+    margin-bottom: 50px;
+    
+
+}
+
+.blog-img-box1{
+    
+    display: grid;
+    margin-right: 40px;
+    
+    
+}
+
+.blog-img-btn{
+    width: 100px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: black;
+    color: azure;
+}
+
+.blog-img-box2{
+    display: grid;
+    
+}
+.blog-img-box3{
+    display: grid;
+    margin-left:40px ;
+}
+.blog-page-num{
+    display: flex;
+    justify-content: center;
+}
+
+.box-page-btn{
+    border-radius: 100px;
+    margin-right: 7px;
+    background-color:black ;
+    color: white;
+}
+.box-page-btn1{
+    border-radius: 100px;
+    margin-right: 7px;
+    background-color:greenyellow;
+    color: black;
+}
+
+    
+
+
+
+
+

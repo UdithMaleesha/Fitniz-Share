@@ -60,27 +60,29 @@ body {
     margin-top: 70px;
 }
 
-.container-box{
+.container-box {
     font-size: small;
     margin: 20px;
-  
+
     text-align: justify;
 }
 
-.card{
+.card {
     text-align: center;
     width: 23.5%;
     height: 500px;
     background-color: aqua;
-    
+
 }
-.card-img{
-    width:100%;
+
+.card-img {
+    width: 100%;
     height: 200px;
     object-fit: cover;
     object-position: top;
 }
-.card-sec{
+
+.card-sec {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -88,8 +90,8 @@ body {
     gap: 50px;
 }
 
-.gym-img{
-    width:-10px;
+.gym-img {
+    width: -10px;
     height: -10px;
     display: flex;
     flex-direction: row;
@@ -97,32 +99,36 @@ body {
     align-items: center;
     gap: 30px;
 }
-.about-img-text{
+
+.about-img-text {
     display: flex;
     gap: 40px;
     justify-content: center;
     align-items: center;
 }
-.about-img-div{
+
+.about-img-div {
     width: 50%;
-    
+
 }
 
-.about-text1{
+.about-text1 {
     width: 50%;
-    
+
 }
-.gym-img1{
+
+.gym-img1 {
     display: flex;
     width: 0;
     height: 0;
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    
+
 
 }
-.gym-img2{
+
+.gym-img2 {
     display: flex;
     width: -100px;
     height: -200px;
@@ -130,31 +136,33 @@ body {
     justify-content: center;
     flex-direction: row;
 }
-.gym-img3{
+
+.gym-img3 {
     display: flex;
     width: -100px;
     height: -200px;
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    
+
 }
-.main-box{
+
+.main-box {
     display: flex;
     margin-bottom: 50px;
-    
+
 
 }
 
-.blog-img-box1{
-    
+.blog-img-box1 {
+
     display: grid;
     margin-right: 40px;
-    
-    
+
+
 }
 
-.blog-img-btn{
+.blog-img-btn {
     width: 100px;
     height: 25px;
     border-radius: 20px;
@@ -162,77 +170,90 @@ body {
     color: azure;
 }
 
-.blog-img-box2{
+.blog-img-box2 {
     display: grid;
-    
+
 }
-.blog-img-box3{
+
+.blog-img-box3 {
     display: grid;
-    margin-left:40px ;
+    margin-left: 40px;
 }
-.blog-page-num{
+
+.blog-page-num {
     display: flex;
     justify-content: center;
 }
 
-.box-page-btn{
+.box-page-btn {
     border-radius: 100px;
     margin-right: 7px;
-    background-color:black ;
+    background-color: black;
     color: white;
 }
-.box-page-btn1{
+
+.box-page-btn1 {
     border-radius: 100px;
     margin-right: 7px;
-    background-color:greenyellow;
+    background-color: greenyellow;
     color: black;
 }
 
-
-.fitnes-box1{
-    width: 75%;
-    height: 75%;
-    border-style: solid;
-    
-}
-.fitness-date{
-    width: 75%;
-    height: 75%;
-    border-style: solid;
-    margin-bottom: 10px;
+.fitnes-upbox{
+    display: flex;
 }
 
-.fitnes-box2{
-    width: 75%;
-    height: 75%;
+.fitnes-bottombox{
+    display: flex;
+}
+.fitnes-box1 {
+    width: 500px;
+    height: 300px;
     border-style: solid;
-      
+    margin-bottom: 50px;
+
 }
 
-.gym-img-box1{
+.fitness-date {
+    width: 250px;
+    height: 300px;
+    border-style: solid;
+}
+
+.fitnes-box2 {
+    width: 500px;
+    height: 300px;
+    border-style: solid;
+
+}
+
+.gym-img-box1 {
     margin-left: 30px;
-    
+
 }
-    
-.gym-gallery-img{
+
+.gym-gallery-img {
     margin-bottom: 30px;
 }
 
-.main-index-box{
+.main-index-box {
     display: flex;
 }
 
-.category-box1 , .category-box2{
+.category-box1,
+.category-box2 {
     display: flex;
 }
 
-.index-icon{
+.index-icon {
     display: flex;
 }
-.blog-social-btn{
+
+.blog-social-btn {
     display: flex;
 }
-.blog-facebook-btn{
+
+.blog-facebook-btn {
     background-color: #0921ab;
     color: white;
     border: none;
@@ -243,15 +264,152 @@ body {
 
 }
 
+.contact-box {
+    background: #fff;
+    display: flex;
+
+}
+
+.contact-left {
+    flex-basis: 50%;
+    padding: 40px 60px;
+
+}
+
+.contact-right {
+    flex-basis: 50%;
+    padding: 40px 60px;
+
+
+}
+
+.contact-Message {
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+
+}
+
+.input-row {}
+
+.input-group {
+    margin-bottom: 20px;
+    outline-style: inset;
+    width: 400px;
+    height: 45px;
+    text-align: center;
+
+}
+
+
+.input-msgbox {
+
+    margin-bottom: 20px;
+    outline-style: inset;
+    width: 400px;
+    height: 155px;
+
+}
+
+.contact-submit {
+
+    background-color: rgb(30, 17, 115);
+    width: 85px;
+    height: 35px;
+    color: #ccc;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+
+}
+
+tr td:first-child {
+    padding-top: 40px;
+
+}
+
+.box-comment {
+    display: flex;
+
+}
+
+.box-comment1 {
+    outline-style: inset;
+
+}
+
+.box-comment2 {
+    outline-style: inset;
+    margin-left: 20px;
+
+}
+
+.blog-input-row {
+    margin-right: 150px;
+
+}
+
+.blog-contact-left {
+    margin-right: 30px;
+
+}
+
+.blog-input-groupall {
+    display: flex;
+
+}
+
+
+.blog-input-group1 {
+    margin-bottom: 20px;
+    outline-style: inset;
+    width: 650px;
+    height: 45px;
+    margin-right: 20px;
+
+}
+
+.blog-input-group2 {
+    margin-bottom: 20px;
+    outline-style: inset;
+    width: 550px;
+    height: 45px;
+
+}
+
+
+
+.blog-input-msgbox {
+
+    margin-bottom: 20px;
+    outline-style: inset;
+    width: 1220px;
+    height: 155px;
+
+}
+
+.blog-contact-submit {
+
+    background-color: rgb(0, 0, 0);
+    width: 150px;
+    height: 35px;
+    color: #ccc;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    border-radius: 40px;
+
+}
 
 
 
 
-footer{
+footer {
     width: 100%;
     position: absolute;
     bottom: 0;
-    background:linear-gradient(to right, #00093c , #2d0b00) ;
+    background: linear-gradient(to right, #00093c, #2d0b00);
     color: #fff;
     padding: 100px 0 30px;
     border-top-right-radius: 125px;
@@ -269,44 +427,46 @@ footer{
     justify-content: space-between;
 }
 
-.col{
+.col {
     flex-basis: 25%;
     padding: 10px;
 }
-.col :nth-child(2), .col :nth-child(3){
+
+.col :nth-child(2),
+.col :nth-child(3) {
     flex-basis: 15%;
 
 }
 
-.logo{
+.logo {
     width: 80px;
     margin-bottom: 30px;
 }
 
-.col h3{
+.col h3 {
     width: fit-content;
     margin-bottom: 40px;
     position: relative;
 }
 
-.email-id{
-    width:fit-content ;
+.email-id {
+    width: fit-content;
     border-bottom: 1px solid #ccc;
     margin: 20px 0;
 
 }
 
-ul li{
+ul li {
     list-style: none;
     margin-bottom: 12px;
 }
 
-ul li a{
+ul li a {
     text-decoration: none;
     color: #fff;
 }
 
-form{
+form {
 
     padding-bottom: 15px;
     display: flex;
@@ -317,14 +477,14 @@ form{
 
 }
 
-form .far{
+form .far {
 
     font-size: 18px;
     margin-right: 10px;
 
 }
 
-form input{
+form input {
     width: 100%;
     background: transparent;
     color: #ccc;
@@ -332,19 +492,20 @@ form input{
     outline: none;
 }
 
-form button{
+form button {
     background: transparent;
     border: 0;
     outline: none;
     cursor: pointer;
 }
 
-form button .fa-solid{
+form button .fa-solid {
     font-size: 16px;
     color: #ccc;
 
 }
-.social-icons .fa-brands{
+
+.social-icons .fa-brands {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -358,16 +519,18 @@ form button .fa-solid{
 
 }
 
-hr{
+hr {
     width: 90%;
     border: 0;
-    border-bottom:1px solid #ccc;
+    border-bottom: 1px solid #ccc;
     margin: 20px auto;
 }
-.copyright{
+
+.copyright {
     text-align: center;
 }
-.underline{
+
+.underline {
     width: 100%;
     height: 5px;
     background: #767676;
@@ -377,7 +540,8 @@ hr{
     left: 0;
     overflow: hidden;
 }
-.underline span{
+
+.underline span {
     width: 15px;
     height: 100%;
     background: #fff;
@@ -389,32 +553,29 @@ hr{
 
 }
 
-@keyframes moving{
-    0%{
-        left : -20px;
+@keyframes moving {
+    0% {
+        left: -20px;
     }
-    100%{
+
+    100% {
         left: 100%;
     }
 }
 
 @media (max-width : 700px) {
-    footer{
+    footer {
         bottom: unset;
     }
-    .col{
+
+    .col {
         flex-basis: 100%;
-        
+
     }
-    .col :nth-child(2), .col :nth-child(3){
+
+    .col :nth-child(2),
+    .col :nth-child(3) {
         flex-basis: 100%;
-    
+
     }
 }
-
-
-
-
-
-
-
